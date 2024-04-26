@@ -65,7 +65,7 @@ export function Home() {
   function changeCarr(param) {
     // Define a opacidade inicial
     let opacity = 1;
-  
+
     // Define a função para reduzir gradativamente a opacidade
     const reduceOpacity = () => {
       // Reduz a opacidade em pequenos decrementos
@@ -89,16 +89,16 @@ export function Home() {
         setTimeout(restoreOpacity, 5); // Tempo de espera antes de restaurar a opacidade
       }
     };
-  
+
     // Inicia a redução de opacidade
     reduceOpacity();
   }
-  
+
   // Função para restaurar a opacidade
   function restoreOpacity() {
     // Define a opacidade inicial
     let opacity = 0;
-  
+
     // Define a função para aumentar gradativamente a opacidade
     const increaseOpacity = () => {
       // Aumenta a opacidade em pequenos incrementos
@@ -113,11 +113,10 @@ export function Home() {
         setTimeout(increaseOpacity, 5); // Ajuste aqui a velocidade da transição
       }
     };
-  
+
     // Inicia o aumento de opacidade
     increaseOpacity();
   }
-  
 
   return (
     <S.HomePageDivAll>

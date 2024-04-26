@@ -63,7 +63,6 @@ export const divMenuBar = styled.div`
   }
 
   li {
-
     color: white;
     font-size: 14px;
     cursor: pointer;
@@ -74,19 +73,18 @@ export const divMenuBar = styled.div`
   }
 
   @media (max-width: 930px) {
-    li{
-      padding: 0 0.5rem ;
+    li {
+      padding: 0 0.5rem;
       font-size: 10px;
     }
-    .divLis{
-      button{
+    .divLis {
+      button {
         padding-bottom: 1px;
         font-size: 12px;
         width: 70px;
         height: 25px;
       }
     }
-
   }
 `;
 
@@ -124,7 +122,7 @@ export const HomePageImgDivContent = styled.div`
       object-fit: contain;
     }
 
-    .whatsIcon{
+    .whatsIcon {
       width: 5vw;
       margin-top: 70vh;
       position: fixed;
@@ -132,12 +130,9 @@ export const HomePageImgDivContent = styled.div`
   }
 
   @media (max-width: 768px) {
-
     display: flex;
     flex-direction: column;
-
   }
-
 `;
 
 export const SectionCar = styled.div`
@@ -152,7 +147,6 @@ export const SectionCar = styled.div`
     height: 100%;
     transition: all 2s ease-in-out;
     display: flex;
-
   }
   .card {
     width: 100%;
@@ -163,7 +157,6 @@ export const SectionCar = styled.div`
   }
 
   .cardContent {
-
     overflow-x: hidden;
     max-width: 918px;
     height: 100%;
@@ -206,7 +199,6 @@ export const SectionCar = styled.div`
     margin: 0;
     border-radius: 16px;
     margin-left: -220px;
-
   }
 
   img {
@@ -216,20 +208,17 @@ export const SectionCar = styled.div`
   }
 
   @media (max-width: 948px) {
-
     display: flex;
     flex-direction: column;
-    .text{
-      h5{
-
-        font-size: 14px;}
-      p{
+    .text {
+      h5 {
+        font-size: 14px;
+      }
+      p {
         font-size: 10px;
       }
-
     }
   }
-
 `;
 
 export const SimulatorDiv = styled.div`
