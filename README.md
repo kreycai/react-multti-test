@@ -4,4 +4,4 @@ Instalação:
 - npm i
 
 Rodar:
--npm run dev
+- npm run dev
