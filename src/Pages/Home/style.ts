@@ -229,6 +229,7 @@ export const SimulatorDiv = styled.div`
   background: #e9ecef;
   height: 35rem;
   justify-content: center;
+  overflow-y: hidden;
 
   .content {
     margin-top: 20rem;
